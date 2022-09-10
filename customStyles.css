@@ -1,0 +1,31 @@
+body{
+    background: linear-gradient(90deg, rgba(14,0,255,1) 50%, rgba(255,255,255,1) 50%);
+    margin:0;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    height:100vh;
+}
+@media only screen and (max-width: 600px){
+    body{
+        background: linear-gradient(0deg, rgba(255,255,255,1) 50%, rgba(45,54,253,1) 50%);
+    }
+}
+
+
+
+.custom{
+    background-color: blueviolet;
+    border: 2px solid white;
+}
+
+.customImg{
+    border-radius: 3%;
+    min-width: 150px;
+}
+
+.customBttn{
+    border: 2px solid white;
+
+
+}
