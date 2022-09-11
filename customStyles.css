@@ -1,10 +1,10 @@
 body{
-    background: linear-gradient(90deg, rgba(14,0,255,1) 50%, rgba(255,255,255,1) 50%);
+    /*background: linear-gradient(90deg, rgba(14,0,255,1) 50%, rgba(255,255,255,1) 50%); */
+    background: linear-gradient(270deg, rgba(14,0,255,1) 50%, rgba(0,0,0,1) 51%, rgba(255,255,255,1) 51%);
+
     margin:0;
-    display: flex;
-    align-items:center;
-    justify-content: center;
-    height:100vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
 }
 @media only screen and (max-width: 600px){
     body{
@@ -15,8 +15,8 @@ body{
 
 
 .custom{
-    background-color: blueviolet;
-    border: 2px solid white;
+    border-radius: 1%;
+    max-height: 750px;
 }
 
 .customImg{
@@ -27,5 +27,40 @@ body{
 .customBttn{
     border: 2px solid white;
 
+}
+.customCard{
+    width: 100%;
+}
+
+#html_1{
+    background: linear-gradient(270deg, rgba(255,255,255,1) 17%, rgba(14,0,255,1) 17%);
+}
+
+#css_2{
+    background: linear-gradient(270deg, rgba(255,255,255,1) 14%, rgba(14,0,255,1) 14%);
+}
+
+#bootstrap_3{
+    background: linear-gradient(270deg, rgba(255,255,255,1) 44%, rgba(14,0,255,1) 44%);
+}
+
+#javascript_4{
+    background: linear-gradient(270deg, rgba(255,255,255,1) 67%, rgba(14,0,255,1) 67%);
+}
+
+#react_5{
+    background: linear-gradient(270deg, rgba(255,255,255,1) 84%, rgba(14,0,255,1) 84%);
+}
+
+#python_6{
+    background: linear-gradient(270deg, rgba(255,255,255,1) 23%, rgba(14,0,255,1) 23%);
+}
+
+#django_7{
+    background: linear-gradient(270deg, rgba(255,255,255,1) 45%, rgba(14,0,255,1) 45%);
+}
+
+#sql_8{
+    background: linear-gradient(270deg, rgba(255,255,255,1) 76%, rgba(14,0,255,1) 76%);
 
 }
