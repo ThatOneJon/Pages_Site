@@ -64,3 +64,20 @@ body{
     background: linear-gradient(270deg, rgba(255,255,255,1) 76%, rgba(14,0,255,1) 76%);
 
 }
+
+#btn_1:focus{
+    border: 5px solid black;
+    font-weight: bold;
+}
+
+#btn_2:focus{
+    border: 5px solid black;
+    font-weight: bold;
+
+}
+
+#btn_3:focus{
+    border: 5px solid black;
+    font-weight: bold;
+
+}
