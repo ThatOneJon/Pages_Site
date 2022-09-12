@@ -17,11 +17,11 @@ body{
 .custom{
     border-radius: 1%;
     max-height: 750px;
+    height:100%;
 }
 
 .customImg{
     border-radius: 3%;
-    min-width: 150px;
 }
 
 .customBttn{
@@ -30,6 +30,7 @@ body{
 }
 .customCard{
     width: 100%;
+    height:100%;
 }
 
 #html_1{
