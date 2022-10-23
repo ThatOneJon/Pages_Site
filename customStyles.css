@@ -24,15 +24,23 @@ body{
     border-radius: 3%;
     min-width: 500px;
     min-height: 450px;
+    transition: transform .6s; 
 }
 
 .customBttn{
     border: 2px solid white;
 
 }
+
 .customCard{
     width: 100%;
     height:100%;
+    overflow: hidden;
+}
+
+.customImg:hover{
+    transform: scale(2.0);
+    object-fit: fill;
 }
 
 #html_1{
@@ -83,4 +91,18 @@ body{
     border: 5px solid black;
     font-weight: bold;
 
+}
+
+.profileImg{
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.profileImg:hover {
+    transform: scale(1.2);
+}
+
+.zoomClass{
+    width: 1000px;
 }

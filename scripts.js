@@ -29,4 +29,5 @@ document.addEventListener("DOMContentLoaded", ()=> {
         document.getElementById("view_3").style.display="block";    
 
     };
+
 })
