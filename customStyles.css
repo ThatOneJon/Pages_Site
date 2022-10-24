@@ -1,12 +1,14 @@
 body{
     /*background: linear-gradient(90deg, rgba(14,0,255,1) 50%, rgba(255,255,255,1) 50%); */
     background: linear-gradient(270deg, rgba(14,0,255,1) 50%, rgba(0,0,0,1) 51%, rgba(255,255,255,1) 51%);
-    font-family: inter;
+    font-family: Inter;
     margin-left:0;
     margin-right: 0;
     padding-top: 10vh;
     padding-bottom: 10vh;
 }
+
+
 @media only screen and (max-width: 600px){
     body{
         background: linear-gradient(0deg, rgba(255,255,255,1) 50%, rgba(45,54,253,1) 50%);
@@ -24,6 +26,16 @@ body{
     border-radius: 2%;
     max-height: 750px;
     height:100%;
+}
+
+p{
+    font-family: 'Harmattan', sans-serif;
+    font-size: 23px;
+}
+
+ul{
+    font-family: 'Harmattan', sans-serif;
+    font-size: 23px;
 }
 
 .customImg{
